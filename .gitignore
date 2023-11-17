@@ -1,0 +1,8 @@
+**/.idea/**
+.idea/*
+.a
+.so
+*.a
+*.so
+__pycache__/**
+**/__pycache__/**

@@ -1,0 +1,19 @@
+IPOPT
+==========
+Interior point method (not as good as SQP)
+Free / open source
+Written in C++
+Ported to Python: https://github.com/xuy/pyipopt
+
+NLOPT (written by MIT prof.)
+https://nlopt.readthedocs.io/en/latest/
+========================
+Many different methods
+Reccomends Analytical / Auto-diff gradients
+Free / open source
+Interface with C++, Python ... 
+
+SNOPT
+=====================
+Stanford
+Trial license only
