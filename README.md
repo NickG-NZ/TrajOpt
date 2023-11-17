@@ -1,10 +1,13 @@
 # TrajOpt
 **Trajectory Optimization Tools for Robotics**
 
-Generic tools for direct trajectory optimzation using the
-SNOPT NLP solver.
+MILQR non-linear traj-opt with explicit handling of topography of SO(3) group (3D Rotations)
+Highly efficient with active-set method (projected-Newton) for handling input constraints
+(ILQR is DDP with first order expansion of dynamics)
 
-Includes both collocation and pseudo-spectral methods.
+TODO: NLP
+Generic tools for direct trajectory optimzation interfacing
+various NLP (non-linear programming) solvers.
+Include both collocation and pseudo-spectral methods.
 
-In the future, MILQR trajectory optimization will be added.
 
